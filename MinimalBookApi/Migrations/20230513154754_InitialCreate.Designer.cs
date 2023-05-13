@@ -11,8 +11,8 @@ using MinimalBookApi;
 namespace MinimalBookApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221215114858_Initial")]
-    partial class Initial
+    [Migration("20230513154754_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
